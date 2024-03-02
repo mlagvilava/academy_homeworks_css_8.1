@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Old Standard TT";
+    src: url(fonts/OldStandardTT-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Iowan Old Style";
+    src: url(fonts/IowanOldStyle.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Iowan Old Style";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.p1 {
+    font-family: "Old Standard TT";
+    font-weight: 400;
+}
+
+.p2 {
+    font-family: "Old Standard TT";
+    font-weight: 400;
+    text-align: justify;
+}
